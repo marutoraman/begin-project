@@ -1,29 +1,29 @@
 # プロジェクト作成時に行うこと
 VSCODEのプロジェクト作成後に始めに行うと良いことを紹介します。
 
--1 venvフォルダを作成
-プロジェクトルートにて以下のターミナルでコマンドを実行してvenvフォルダを作成します。
-`python -m venv venv`
+- venvフォルダを作成
+プロジェクトルートにて以下のターミナルでコマンドを実行してvenvフォルダを作成します。<BR>
+`python -m venv venv`<BR>
 
--1 venvをアクティべート
-以下を実行してアクティべートを行い、(venv)がターミナルの先頭に表示されることを確認します。
-Windows
-`. venv/scripts/activate`
-Mac
-`. venv/bin/activate`
+- venvをアクティべート
+以下を実行してアクティべートを行い、(venv)がターミナルの先頭に表示されることを確認します。<BR>
+Windows<BR>
+`. venv/scripts/activate`<BR>
+Mac<BR>
+`. venv/bin/activate`<BR>
 
--1 必要モジュールのinstall
+- 必要モジュールのinstall
 `pip install <モジュール>`
 
-requirements.txtファイルがある場合は
-`pip install -r requirements.txt`
+requirements.txtファイルがある場合は<BR>
+`pip install -r requirements.txt`<BR>
 
--1 他の方にソースコードを共有する時
-以下を実行して出力されたファイルを含めて共有する
-`pip freeze > requirements.txt`
+- 他の方にソースコードを共有する時
+以下を実行して出力されたファイルを含めて共有する<BR>
+`pip freeze > requirements.txt`<BR>
 
--1 gitignoreファイルの作成
-VSCODEの拡張機能のgitignoreをインストール（検索ワード：codezombiech.gitignore）  
-Ctrl + Shift + P を押下してコマンドパレットを表示させる
-gitignore と入力　➙　Add gitignore を選択 ➙　pythonと入力して選択
+- gitignoreファイルの作成
+VSCODEの拡張機能のgitignoreをインストール（検索ワード：codezombiech.gitignore）<BR>  
+Ctrl + Shift + P を押下してコマンドパレットを表示させる<BR>
+gitignore と入力　➙　Add gitignore を選択 ➙　pythonと入力して選択<BR>
 これでgitignoreファイルが作成され、余計な一時ファイルはgithubにpushされなくなります。
