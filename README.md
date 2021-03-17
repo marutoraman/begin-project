@@ -15,7 +15,7 @@ Mac<BR>
 - 必要モジュールのinstall
 `pip install <モジュール>`
 
-requirements.txtファイルがある場合は<BR>
+- requirements.txtファイルがある場合は<BR>
 `pip install -r requirements.txt`<BR>
 
 - 他の方にソースコードを共有する時
@@ -23,7 +23,7 @@ requirements.txtファイルがある場合は<BR>
 `pip freeze > requirements.txt`<BR>
 
 - gitignoreファイルの作成
-VSCODEの拡張機能のgitignoreをインストール（検索ワード：codezombiech.gitignore）<BR>  
+VSCODEの拡張機能のgitignoreをインストール（検索ワード：codezombiech.gitignore）<BR>
 Ctrl + Shift + P を押下してコマンドパレットを表示させる<BR>
 gitignore と入力　➙　Add gitignore を選択 ➙　pythonと入力して選択<BR>
 これでgitignoreファイルが作成され、余計な一時ファイルはgithubにpushされなくなります。
