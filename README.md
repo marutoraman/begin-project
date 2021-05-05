@@ -8,7 +8,7 @@ VSCODEのプロジェクト作成後に始めに行うと良いことを紹介�
 - venvをアクティべート
 以下を実行してアクティべートを行い、(venv)がターミナルの先頭に表示されることを確認します。<BR>
 Windows<BR>
-`. venv/scripts/activate`<BR>
+`venv/scripts/activate`<BR>
 Mac<BR>
 `. venv/bin/activate`<BR>
 
